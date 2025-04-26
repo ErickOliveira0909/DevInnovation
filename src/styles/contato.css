@@ -1,0 +1,101 @@
+.contato{
+    min-height: 100vh;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 60px;
+}
+
+.cta{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+    text-align: center;
+}
+
+.banner-cta{
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.3);
+}
+.cta-information{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.cta-text{
+    font-size: 2.5rem;
+    color: #2F2F2E;
+    font-family: "Inria Serif", serif;
+    text-shadow: 0px 1px 12px rgba(0, 0, 0, 0.356);
+    font-weight: 700;
+}
+
+#cta-word{
+    color: #3A76BF;
+}
+.cta-button {
+    width: 50vh;
+    text-decoration: none;
+    border: 0;
+    background-color: #3A76BF;
+    color: #FFFF;
+    font-size: 1.8rem;
+    padding: 10px 15px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.356);
+}
+
+.cta-button:hover{
+    background-color: #5C99C8;
+}
+@media screen and (max-width: 1710px){
+    .cta{
+        flex-direction: row;
+    }
+    .banner-cta{
+        width: 400px;
+    }
+    .cta-text{
+        font-size: 1.8rem;
+    }
+    .cta-button{
+        width: 50vh;
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 900px){
+    .cta{
+        flex-direction: column;
+    }
+    .banner-cta{
+        width: 400px;
+    }
+    .cta-text{
+        font-size: 1.8rem;
+    }
+    .cta-button{
+        width: 50vh;
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 500px){
+    .cta{
+        flex-direction: column;
+    }
+    .banner-cta{
+        width: 300px;
+    }
+    .cta-text{
+        font-size: 1.5rem;
+    }
+    .cta-button{
+        width: 40vh;
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+@import url("header.css");
+@import url("home.css");
+@import url("services.css");
+@import url("portifolio.css");
+@import url("contato.css");
+@import url("footer.css");
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F0EEE4;
+}
+
+.btn-default{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3A76BF;
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-weight: 600;
+    box-shadow: 0px 0px 12px 4px rgb(0,0,0, 0.3);
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+.btn-default a{
+    color: #F0EEE4;
+    
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.btn-default:hover{
+    background-color: #5C99C8;
+}
+
+.social_media_buttons{
+    display: flex;
+    gap: 18px;
+}
+.social_media_buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    background-color: #ffffff;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #3A76BF;
+    box-shadow: 0px 0px 12px 4px rgb(0,0,0, 0.1);
+    transition: box-shadow .3s ease;
+}
+.social_media_buttons a:hover{
+    box-shadow: 0px 0px 12px 8px rgb(0,0,0, 0.1);
+}
+
+.section-title{
+    color: #3A76BF;
+    font-size: 1.563rem;
+    
+}
+.section-subtitle{
+    color: #2F2F2E;
+    font-family: "Inria Serif", serif;
+    text-shadow: 0px 1px 12px rgba(0, 0, 0, 0.356);
+    font-size: 2.1875rem;
+}
+.section-text{
+    color: #2F2F2E;
+    font-size: 16px;
+    font-family: "Inria Serif", serif;
+    text-shadow: 0px 1px 12px rgba(0, 0, 0, 0.356);
+    font-weight: 400;
+    
+}

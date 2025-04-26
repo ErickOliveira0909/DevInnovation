@@ -1,0 +1,46 @@
+.portifolio{
+    min-height: 60vh;
+    text-align: center;
+    margin-top: 60px;
+}
+.img-sites{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.site{
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.3);
+}
+@media screen and (max-width: 1710px){
+    .img-sites{
+        flex-direction: row;
+    }
+    .site{
+        
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .img-sites{
+        flex-direction: column;
+    }
+    .site{
+        
+        width: 400px;
+    }
+}
+@media screen and (max-width: 500px){
+    .img-sites{
+        flex-direction: column;
+    }
+    .site{
+        width: 300px;
+    }
+}
